@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
             ['email' => 'admin@wikcup.com'],
             [
                 'name'     => 'Administrator WikCup',
-                'password' => Hash::make('admin123'),
+                'password' => Hash::make('admin321'),
                 'role'     => 'admin',
             ]
         );
